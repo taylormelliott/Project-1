@@ -27,5 +27,37 @@ body {
   margin: auto;
   position: absolute;
   left: 42vw;
-  bottom: 60vh;
+  bottom: 55vh;
+}
+
+#eight-ball-title {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  left: 28vw;
+  bottom: 90svh;
+}
+
+.rainbowText {
+  font-family: arial black;
+  font-size: 70px;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 35s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
 }
