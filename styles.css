@@ -38,6 +38,14 @@ body {
   bottom: 90svh;
 }
 
+#somagicalphrase {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  left: 42vw;
+  bottom: 15vh;
+}
+
 .rainbowText {
   font-family: arial black;
   font-size: 70px;
