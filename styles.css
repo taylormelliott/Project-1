@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: blue;
+}
+
+.align-center {
+  display: flex;
+  margin: 0 auto;
+  height: 50vh;
+  width: 50vh;
+  /* border: 5px solid black; */
+  padding: 10 px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.align-response {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  left: 30vw;
+  bottom: 32vh;
+}
+
+#eightBall {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  left: 42vw;
+  bottom: 60vh;
+}
