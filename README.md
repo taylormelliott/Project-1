@@ -2,7 +2,7 @@
 
 ## Project Description
 
-- This project's purpose is to display some of my first basic coding concepts I've learned over the last 8 weeks. The user simply imputs a question in the input text box and clicks submit. Upon clicking submit, the web app outputs one of eight repsonses from a simulated magic eight ball toy. The responses are set to random to simulate the actual toy
+- This project's purpose is to display some of my first basic coding concepts I've learned over the last 8 weeks. The user simply imputs a question in the input text box and clicks submit. Upon clicking submit, the web app outputs one of eight repsonses from a simulated magic eight ball toy. The responses are set to random to simulate the actual toy. The website is hosted on Heroku
 
 ## Teck Stack
 
@@ -10,6 +10,7 @@
 - Javascript
 - CSS
 - Express
+- Heroku
 
 ## Features
 
