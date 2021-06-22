@@ -42,8 +42,16 @@ body {
   display: flex;
   margin: auto;
   position: absolute;
-  left: 42vw;
-  bottom: 15vh;
+  left: 56vw;
+  bottom: 5vh;
+}
+
+#bob-ross {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  left: 70vw;
+  bottom: 1vh;
 }
 
 .rainbowText {
