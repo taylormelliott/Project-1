@@ -18,6 +18,10 @@ app.get("/bob", function (req, res) {
 app.get("/Eightball", function (req, res) {
   res.sendFile(path.join(__dirname, "../Images/Eightball.png"));
 });
+
+app.get("/js", function (req, res) {
+  res.sendFile(path.join(__dirname, "../index.js"));
+});
 const port = process.env.PORT || 4005;
 
 app.listen(port, () => {
