@@ -1,5 +1,6 @@
 const subitBtn = document.querySelector("#submitBtn");
 const question = document.querySelector("#question");
+const bob = document.querySelector("#bob-ross");
 
 let magicBallResponse = () => {
   let randomNumber = Math.floor(Math.random() * 8);
@@ -45,3 +46,15 @@ let getResponse = (e) => {
   }, 3000);
 };
 subitBtn.addEventListener("click", getResponse);
+
+let getBobb = () => {
+  let bobResponse = document.createElement("h1");
+  bobResponse.className = "align-response";
+  bobResponse.textContent = "Bob says YOU matter";
+  document.body.appendChild(bobResponse);
+  setTimeout(() => {
+    question.value = "";
+    bobResponse.remove();
+  }, 3000);
+};
+bob.addEventListener("click", getBobb);
